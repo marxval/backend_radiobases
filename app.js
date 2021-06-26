@@ -39,7 +39,7 @@ fs.createReadStream(dbFilename)
 
 
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://radiobases.herokuapp.com'
 }))
 
 app.use(express.json());
